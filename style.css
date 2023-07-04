@@ -64,6 +64,25 @@
   border: 1px solid #008000;
 }
 
+#gallery .col-lg-4 img{
+  height: 100%;
+  max-width: 400px;
+  min-width: 100%;
+  min-height: 100%;
+  width : auto;
+  object-fit: cover;
+}
+
+#gallery .col-lg-4 video{
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  min-width: 100%;
+  min-height: 100%;
+  width : auto;
+  object-fit: cover;
+}
+
 /* social media icons styling */
 .social-icons {
   font-size: 36px;
