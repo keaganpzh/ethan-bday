@@ -6,7 +6,7 @@
 /* hero background image */
 .bgimage {
   height:100vh;
-  background: url('assets/images/ethan1.JPG');
+  background: url('assets/images/ethan2.JPG');
   background-size: cover;
   background-position: center;
   display: flex;
