@@ -6,7 +6,7 @@
 /* hero background image */
 .bgimage {
   height:100vh;
-  background: url('assets/images/ethan2.JPG');
+  background: url('assets/images/ethan-main.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -65,8 +65,12 @@
 }
 
 #gallery .col-lg-4 img{
+  display: flex;
+  justify-content: center;
+  align-self: center;
   height: 100%;
-  max-width: 400px;
+  max-width: 420px;
+  max-height: 350px;
   min-width: 100%;
   min-height: 100%;
   width : auto;
@@ -76,7 +80,9 @@
 #gallery .col-lg-4 video{
   display: flex;
   justify-content: center;
-  max-width: 400px;
+  align-self: center;
+  max-width: 420px;
+  max-height: 350px;
   min-width: 100%;
   min-height: 100%;
   width : auto;
