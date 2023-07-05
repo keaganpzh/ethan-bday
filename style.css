@@ -1,6 +1,7 @@
 body {
   font: normal 10px;
-  font-family: 'Open Sans', sans-serif'
+  font-family: 'Open Sans';
+  background-color: #fff;
 }
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
