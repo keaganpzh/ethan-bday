@@ -1,11 +1,9 @@
-body {
-  font: normal 10px;
-  font-family: 'Open Sans';
-  background-color: #fff;
+.body {
+  background-color: antiquewhite;
 }
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-  background-color: black;
+  background-color: gray;
 }
 
 /* hero background image */
