@@ -174,5 +174,11 @@
 .balloon:nth-child(5){ background:hsl(23,55%,57%); animation-duration:5s; }
 .balloon:nth-child(5):before { color:hsl(23,44%,46%);  }
 
+.balloon:nth-child(6){ background:hsl(2,55%,57%); animation-duration:5s; }
+.balloon:nth-child(6):before { color:hsl(1,44%,46%);  }
+
+.balloon:nth-child(7){ background:hsl(200,55%,57%); animation-duration:5s; }
+.balloon:nth-child(7):before { color:hsl(210,44%,46%);  }
+
 
 
