@@ -1,0 +1,88 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#congrats {
+    font-size: 100px;
+    padding : 0.5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+mark {
+    font-size: large;
+    color: red;
+    font-weight: bold;
+}
+
+#bmw {
+    width : 10%;
+    height : auto;
+}
+
+#instructions {
+    padding: 4%
+}
+
+#button-container {
+    padding: 3%;
+    color: red;
+    width : 200px;
+}
+
+button {
+    height : auto;
+    width : 60%;
+    padding : 4%;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+    color: red;
+}
+
+#images {
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    align-self: center;
+    justify-content: center;
+}
+
+img {
+    overflow: hidden;
+    width : 40%;
+    height: auto;
+}
+
+.base-timer {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+  
+.base-timer__circle {
+    fill: none;
+    stroke: none;
+}
+
+.base-timer__label {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+  }
+  
+.base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+}
