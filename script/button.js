@@ -28,6 +28,9 @@ function formatTime(time) {
     if (seconds < 10) {
       seconds = `0${seconds}`;
     }
+    if (seconds <= 0) {
+      seconds = `00`;
+    }
     return `${minutes}:${seconds}`;
   }
 
@@ -35,6 +38,9 @@ function startTimer() {
     timerInterval = setInterval(() => {
     timePassed = timePassed += 1;
     timeLeft = TIME_LIMIT - timePassed;
+    if (timeLeft <= 0) {
+      timeLeft = 0;
+    }
     document.getElementById("base-timer-label").innerHTML = formatTime(timeLeft);
   }, 1000);
 }
